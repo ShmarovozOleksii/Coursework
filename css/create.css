@@ -1,0 +1,78 @@
+#jobForm {
+    background-color: #101010;
+    padding: 40px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#jobForm label {
+    color: #fff;
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    display: block;
+    text-align: left;
+}
+
+#jobForm input[type="text"],
+#jobForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+#jobForm textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+#jobForm button[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #FF9100;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#jobForm button[type="button"]:hover {
+    background: #9D4EDD;
+    transition: 0.3s ease;
+}   
+
+#jobForm input[type="text"]:focus,    
+#jobForm textarea:focus {
+    border-color: #FF9100;
+    outline: none;
+}
+
+button.remove-job,
+button.edit-job {
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #FF9E00;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button.remove-job:hover {
+    background: #9D4EDD;
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 480px) {
+    #jobForm {
+        width: 90%;
+        padding: 20px;
+    }
+}

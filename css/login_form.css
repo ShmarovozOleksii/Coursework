@@ -1,0 +1,66 @@
+.container {
+    background-color: #101010;
+    padding: 40px;
+    max-width: 400px;
+    margin: 53px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2.3rem;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginform .label {
+    color: #fff;
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.loginform input[type="text"],
+.loginform input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+.loginform input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #FF9100;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.loginform input[type="submit"]:hover {
+    background: #9D4EDD;
+    transition: 0.3s ease;
+}   
+
+.loginform input[type="text"]:focus,    
+.loginform input[type="password"]:focus {
+    border-color: #FF9100;
+    outline: none;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}   
