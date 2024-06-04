@@ -65,7 +65,8 @@ button.edit-job {
     cursor: pointer;
 }
 
-button.remove-job:hover {
+button.remove-job:hover,
+button.edit-job:hover {
     background: #9D4EDD;
     transition: 0.3s ease;
 }
